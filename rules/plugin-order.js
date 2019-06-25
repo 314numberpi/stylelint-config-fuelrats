@@ -17,7 +17,7 @@ module.exports = {
       'at-rules',
       'less-mixins',
     ],
-    'order/properties-alphabetical-order': false,
+    'order/properties-alphabetical-order': null,
     'order/properties-order': [
       [
         {
@@ -124,7 +124,7 @@ module.exports = {
           // If true, properties within group should not have empty lines between them.
           noEmptyLineBetween: true,
           properties: [
-            'font', 'font-style', 'font-size', 'font-weight', 'font-family', 'font-variant',
+            'font', 'font-display', 'font-style', 'font-size', 'font-weight', 'font-family', 'font-variant',
             'text-align', 'text-decoration', 'text-transform', 'text-shadow', 'line-height',
             'list-style', 'list-style-image', 'list-style-position', 'list-style-type', 'white-space',
           ],
